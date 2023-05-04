@@ -102,13 +102,18 @@ https://github.com/poole/lanyon
 https://github.com/poole/hyde
 항상있는 사이드바
 
-https://github.com/startbootstrap/startbootstrap-clean-blog-jekyll
+일단 사용한 테마 두개를 섞은거  https://github.com/hydecorp/hydejack 
 
-https://jekyllthemes.io/theme/avenco-portfolio-jekyll-theme
+
+
 나중에 직접 만들때 참고
+https://jekyllthemes.io/theme/avenco-portfolio-jekyll-theme
 
 노션 비슷하게 만들어보기
 https://jekyllthemes.io/theme/dann-blog-jekyll-theme
+
+
+
 
 [이미지와 자료 삽입 ](https://jekyllrb-ko.github.io/docs/posts/)
 `... which is shown in the screenshot below: ![My helpful screenshot](/assets/screenshot.jpg)`
@@ -140,9 +145,6 @@ bundle exec jekyll serve
 필요한 기능들은 css로
 
 
-obsidian
-git
-css/html
 
 ```html
 <details>

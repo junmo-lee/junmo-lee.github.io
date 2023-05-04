@@ -54,7 +54,7 @@ $content-margin-3: 3rem;
 $content-margin-5: 4rem;
 
 // TODO: doc
-$half-content: calc($content-width-5 / 2) + $content-margin-5;
+$half-content: ($content-width-5 / 2) + $content-margin-5;
 
 // The sidebar width starts adjusting dynamically when the content is at the center of the window.
 // This is the case when the window size has a `min-width` of content area + twice the sidebar (left, right):

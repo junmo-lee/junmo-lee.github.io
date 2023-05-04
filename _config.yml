@@ -72,6 +72,6 @@ compress_html:
 
 sass:
   style:               compressed
-  
+
 plugins:
   - jekyll-include-cache
