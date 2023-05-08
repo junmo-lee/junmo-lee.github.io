@@ -1,4 +1,13 @@
-
+---
+layout: post
+#title: "None"
+date: 2023-05-04
+description: "None"
+categories: blog
+tags:
+- writing
+- None 
+---
 oreilly 어떻게 했는지 모르겠는데 일단 로그인하고 비밀번호 바꿔서 됨
 
 깃허브 : jekyll v3.9.3 로컬은 v4.3.2(최신)

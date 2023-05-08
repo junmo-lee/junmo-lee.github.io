@@ -1,3 +1,14 @@
+---
+layout: post
+#title: "WTF"
+date: 2023-05-03
+description: "None"
+categories: blog
+tags:
+- writing
+- None 
+---
+
 rules
 1. write daily
 2. write in english as much as possible 

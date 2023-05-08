@@ -1,10 +1,12 @@
 ---
 layout: post
-date: 2019-06-14
-title: Test
+#title: "None"
+date: 2023-05-03
 description: "None"
-tags: writing, None 
-categories: [blog, travel]
+categories: blog
+tags:
+- writing
+- None 
 ---
 url 은 항상 하이퍼링크 형태로
 obsidian의 daily note를 활용하기
