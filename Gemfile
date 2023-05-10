@@ -42,3 +42,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'jekyll-include-cache' 
 gem "webrick", "~> 1.8"
+
+gem "kramdown-math-katex"

@@ -75,3 +75,7 @@ sass:
 
 plugins:
   - jekyll-include-cache
+
+kramdown:
+  math_engine:         katex
+  math_engine_opts:    {}

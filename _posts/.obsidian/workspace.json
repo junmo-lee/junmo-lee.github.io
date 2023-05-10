@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b59501026a80b562",
+            "id": "1996e5320ae7dc4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-05-08-insert-img.md",
+                "file": "2023-05-10-fix-latex.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1996e5320ae7dc4d",
+            "id": "1127b33580847711",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-05-09-matkor.md",
+                "file": "2023-05-10-fix-latex.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-05-09-matkor.md",
+                "file": "2023-05-10-fix-latex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-05-09-matkor.md",
+                "file": "2023-05-10-fix-latex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-05-09-matkor.md"
+                "file": "2023-05-10-fix-latex.md"
               }
             }
           }
@@ -159,18 +159,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "1996e5320ae7dc4d",
+  "active": "1127b33580847711",
   "lastOpenFiles": [
-    "2023-05-04-study rust.md",
     "2023-05-09-matkor.md",
+    "2023-05-10-fix-latex.md",
+    "images/다운로드.png",
+    "다운로드.png",
+    "images",
     "2023-05-08-insert-img.md",
+    "2023-05-03-How to write posts.md",
+    "2023-05-04-study rust.md",
     "Pasted image 20230509221609.png",
     "Pasted image 20230509221448.png",
     "Pasted image 20230509200846.png",
     "Pasted image 20230509200838.png",
     "Pasted image 20230509195857.png",
     "Pasted image 20230509195748.png",
-    "Pasted image 20230509194548.png",
-    "2023-05-03-How to write posts.md"
+    "Pasted image 20230509194548.png"
   ]
 }
