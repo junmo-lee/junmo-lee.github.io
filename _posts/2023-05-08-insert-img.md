@@ -1,5 +1,5 @@
 ---
-layout: post
+#layout:post
 #title: "None"
 date: 2023-05-08
 description: "None"
@@ -50,7 +50,7 @@ Text Format : 다 대문자로, 소문자로, Capitalize(단어앞만 대문자�
 
 ```
 ---
-layout: post
+#layout:post
 # title: "None"
 date: 2023-05-08
 description: "None"
