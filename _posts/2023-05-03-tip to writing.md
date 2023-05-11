@@ -3,11 +3,10 @@ layout: post
 #title: "None"
 date: 2023-05-03
 description: "None"
-categories: blog
-tags:
-- writing
-- None 
+tags: writing, None 
+categories: [blog, travel]
 ---
+
 url 은 항상 하이퍼링크 형태로
 obsidian의 daily note를 활용하기
 템플릿 만들어놓기

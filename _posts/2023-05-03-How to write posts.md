@@ -1,14 +1,13 @@
 ---
 layout: post
-#title: "WTF"
+#title: "None"
 date: 2023-05-03
 description: "None"
 categories: blog
 tags:
 - writing
-- None 
+- None
 ---
-
 rules
 1. write daily
 2. write in english as much as possible 
@@ -22,6 +21,10 @@ post에 있는 .md 파일들은 아이클라우드 동기화 시키기
 2개로 나누어서 생각
 1. 매일 쓰는 일기같은거
 2. 일기들을 모아서 정리해 포스트
+
+# tag
+
+
 
 
 layout
@@ -122,7 +125,6 @@ https://jekyllthemes.io/theme/avenco-portfolio-jekyll-theme
 
 노션 비슷하게 만들어보기
 https://jekyllthemes.io/theme/dann-blog-jekyll-theme
-
 
 
 

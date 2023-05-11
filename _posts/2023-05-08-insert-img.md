@@ -9,8 +9,6 @@ tags:
 - None 
 ---
 
-![](a.png)
-
 < : io input > : io oupute
 
 mac clipborad
@@ -81,4 +79,4 @@ https://github.com/mmistakes/minimal-mistakes 한번써보기
 ![](https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
 
 
-![](img/b.png)
+![](https://i.imgur.com/ljeDapF.png)
