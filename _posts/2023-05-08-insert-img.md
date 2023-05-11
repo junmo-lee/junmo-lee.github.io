@@ -1,12 +1,10 @@
 ---
-#layout:post
-#title: "None"
+title: insert-img
 date: 2023-05-08
 description: "None"
-categories: blog
-tags:
-- writing
-- None 
+categories: [Blog, writing]
+tags: writing
+author: me
 ---
 
 < : io input > : io oupute
@@ -50,7 +48,7 @@ Text Format : 다 대문자로, 소문자로, Capitalize(단어앞만 대문자�
 
 ```
 ---
-#layout:post
+layout: post
 # title: "None"
 date: 2023-05-08
 description: "None"

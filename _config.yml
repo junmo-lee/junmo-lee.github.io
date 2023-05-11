@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://junmo-lee.github.io/"
+url: "https://junmo-lee.github.io"
 
 github:
   username: junmo-lee # change to your github username
@@ -80,7 +80,7 @@ theme_mode: dark # [light|dark]
 img_cdn: "https://imgur.com"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/5T0Qslf"
+avatar: "/5T0Qslf.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true

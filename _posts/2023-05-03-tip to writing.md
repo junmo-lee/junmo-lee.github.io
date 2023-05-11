@@ -1,10 +1,10 @@
 ---
-#layout:post
-#title: "None"
+title: tip to writing
 date: 2023-05-03
 description: "None"
-tags: writing, None 
-categories: [blog, travel]
+categories: [Blog, writing]
+tags: writing
+author: me
 ---
 
 url 은 항상 하이퍼링크 형태로

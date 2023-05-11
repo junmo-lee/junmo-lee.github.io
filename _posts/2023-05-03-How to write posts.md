@@ -1,12 +1,10 @@
 ---
-#layout:post
-#title: "None"
+title: How to write posts
 date: 2023-05-03
 description: "None"
-categories: blog
-tags:
-- writing
-- None
+categories: [Blog, writing]
+tags: writing
+author: me
 ---
 rules
 1. write daily
