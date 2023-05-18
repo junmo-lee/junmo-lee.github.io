@@ -110,3 +110,9 @@ $$
 \end{aligned}
 $$
 ```
+
+워크플로우?
+(로컬 이미지가 있다면 로컬이미지도 같이)
+마크다운 rsyn로 넣기
+태그 형태가 달라서 tag: a,b,c → tag: \[a,b,c] 로 감싸는 스크립트 만들어서 실행시킨다음(항상 6번째줄)
+bundle exec jekyll serve
