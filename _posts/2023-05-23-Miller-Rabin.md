@@ -55,7 +55,7 @@ a\*b (mod m)을 오버플로우를 방지해 구하는 함수
 2. 나머지의 곱과 원래들의 곱의 나머지는 같음
 6. `amod + bmod <= amod`로 오버플로우 탐지, $a+b\equiv a+b-n(modn)$ 를 통해 오버플로우가 나지 않도록
 
-$a b\;\mathrm{mod}\;n=\left\{\begin{array}{l l}{{\left(a k+a k\right)\;\mathrm{mod}\;n,}}&{{b=2k}}\\ {{\left(a+a k+a k\right)\;\mathrm{mod}\;n,}}&{{b=2k+1}}\end{array}\right.$
+![](https://i.imgur.com/PfXXl9D.png)
 [오버플로우 없는 나머지 연산 구현하기](https://helloworldpark.github.io/programming/2017/03/14/Modulo_No_Overflow.html)
 
 
