@@ -1,0 +1,19 @@
+---
+title: "modular inverse"
+date: 2023-05-24 09:09
+description: "None"
+categories: [Blog, SUB_CATEGORIE]
+tags: [tag]     #lowercase
+author: me
+#math: true
+#pin: true
+#img_path: /imgs/
+#mermaid: true
+
+---
+[M1 Mac Instructions Needed · Issue #234 · lukas-blecher/LaTeX-OCR · GitHub](https://github.com/lukas-blecher/LaTeX-OCR/issues/234)
+1.  `pip install "pix2tex[gui]"` the module
+2.  `brew install pyqt@5` the GUI dependency
+3.  `sudo cp -r /opt/homebrew/Cellar/pyqt@5/5.15.7_2/lib/python3.9/site-packages/* /Users/rey/miniconda3/lib/python3.9/site-packages/` * since you cannot find a compatible version on the official forge of pip or conda
+4.  `pip install pynput screeninfo` required by the package
+5.  `conda install pytorch torchvision` conda will try to install a better version of pytorch on arm 64
