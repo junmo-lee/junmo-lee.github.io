@@ -111,8 +111,26 @@ $$
 $$
 ```
 
-워크플로우?
-(로컬 이미지가 있다면 로컬이미지도 같이)
-마크다운 rsyn로 넣기
-태그 형태가 달라서 tag: a,b,c → tag: \[a,b,c] 로 감싸는 스크립트 만들어서 실행시킨다음(항상 6번째줄)
-bundle exec jekyll serve
+
+
+[LaTeX/Advanced Mathematics - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics)
+$$
+ u(x) = 
+  \begin{cases} 
+   \exp{x} & \text{if } x \geq 0 \\
+   1       & \text{if } x < 0
+  \end{cases}
+$$
+
+$$
+\begin{align*}
+f(x)  &= a x^2+b x +c   &   g(x)  &= d x^3 \\
+f'(x) &= 2 a x +b       &   g'(x) &= 3 d x^2
+\end{align*}
+$$
+
+$$
+\begin{align*} \nabla \cdot \mathbf{E} &= \frac{\rho}{\epsilon_0} \quad &\text{(Gauss's law)} \\ \nabla \cdot \mathbf{B} &= 0 \quad &\text{(Gauss's law for magnetism)} \\ \nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \quad &\text{(Faraday's law of induction)} \\ \nabla \times \mathbf{B} &= \mu_0\left(\mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right) \quad &\text{(Ampère-Maxwell law)} \end{align*}
+$$
+
+
