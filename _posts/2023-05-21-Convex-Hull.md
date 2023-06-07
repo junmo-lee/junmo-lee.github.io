@@ -1,46 +1,17 @@
 ---
-title: matkor
-date: 2023-05-09
+title: "Convex Hull"
+date: 2023-05-21 14:24
 description: "None"
 categories: [Blog, algorithm]
-tags: mathkor
+tags: [math]     #lowercase
 author: me
 math: true
+#pin: true
+#img_path: /imgs/
+#mermaid: true
+
 ---
 
-mission control 설정 > 데스크탑 및 dock
-
-백준에 있는 알고리즘(너무 특수한거 빼고)
-
--   $S={1\over 2} ah_a$
--   $S= {1 \over 2} ab \sin C$
--   $S=rp$
--   S={abc \over 4R}=2R^2 \sin A \sin B \sin C={a^2 \sin B \sin C \over 2 \sin A}$
--   $S=\sqrt{p(p-a)(p-b)(p-c)}=\frac{1}{4}\sqrt{(a^2+b^2+c^2)^2-2(a^4+b^4+c^4)}$
-
-외적을 통해 방향성 
-![](https://i.imgur.com/b71dMtx.png)
-
-
-clockwise(A에서 B를 볼때 c가 오른쪽에 위치)
-
--   외적을 이용해서 삼각형의 넓이를 구하고, 그 부호를 통해 방향성을 알 수 있다.
--   $2S=\overrightarrow{ab}×\overrightarrow {bc}$
--   $S>0$ → counterclockwise
--   $S=0$ → 일직선
--   $S<0$ → clockwise CCW - [https://www.acmicpc.net/problem/11758](https://www.acmicpc.net/problem/11758)
-
-신발끈 공식 → 외적의 절댓값이 넓이
-
--   픽의 정리 : 격자점에 있는 다각형에서
-    -   내부 점의 개수 : $i$, 변 위에 있는 점 $e$
-    -   $ S=i+{e\over 2}-1 $
-    -   주로 s와 e(gcd)를 통해 i를 구하는데 많이 사용됨
--   내접 사각형 (브라마곱타)
-    -   $ S=\sqrt{(s-a)(s-b)(s-c)(s-d)} $
-        -   $s=\frac{a+b+c+d}2$
--   외접 사각형/외접 다각형
-    -   $S=rs$
 
 Convex Hull : 모든 주어진 점을 포함하는 가장 작은 블록 다각형 [그레이엄 스캔](https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%97%84_%EC%8A%A4%EC%BA%94) → 조금 복잡함
 
@@ -143,45 +114,5 @@ Convex Hull : 모든 주어진 점을 포함하는 가장 작은 블록 다각�
 반평면?
 [Half Plane Intersection](https://junh0.tistory.com/7)
 
-[섯섯시싀 저주](https://www.acmicpc.net/problem/27300) 왜도 : 무게중심과 수심간의 거리 오일러 직선 : 삼각형에서 외심 수심 무게중심이 한 점에 있는거 [오일러직선 : 네이버 블로그](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=alscjf0316&logNo=220205457065)
+[로그인](https://www.acmicpc.net/group/workbook/view/15702/57522)
 
-![](https://i.imgur.com/8w20n0Y.png)
-
-
-$\begin{aligned}\overline{OG}=2\overline{GH}\end{aligned}$ 임을 이용 
-모든 점들이 원 위에 있으므로 외심은 원점, 왜도(선분 GH)
-$\begin{aligned}G\left( \dfrac{x_{i}+x_{j}+x_{k}}{3},\dfrac{y_{i}+y_{j}+y_{k}}{3}\right) \end{aligned}$
-
-$\overline{HG}=\left[ \dfrac{2}{3}\left( x_{i}+x_{j}+x_{k}\right) \right] ^{2} + \left[ \dfrac{2}{3}\left( y_{i}+y_{j}+y_{k}\right) \right]^{2}$
-
-$res = \frac{\sum \overline{HG}}{n \choose 3}$  
-x,y를 따로 구해도 됨
-
-$\sum(x_1 + x_2 + x_3)^2 =\sum x_1^2 + x_2^2 + x_3^2 + 2x_1x_2 + 2x_1x_3 + 2x_2x_3$ 에서$x^2$들은 $n-1 \choose 2$ 회 나타남, 즉 $$S_1 = \cfrac{(n-1)(n-2)}{2} \\\sum_{i=0}^n x^2_i$$ $2x_{i}x_{j} $ 들은 $n-2\choose 1$ 회 나타남, 즉 $S_{2} = (n-2)\\\sum_{i \neq j}^{n} 2x_{i}x_{j}$  
-
-$i \neq j$ 조건을 빼기 위해 $i=j$인 경우를 빼면 
-$S_{2} = \cfrac{2}{2}(n-2)\left[ \sum_{i=0,j=0}^{n} x_{i}x_{j} - \sum_{i=0}^{n} x_{i}^{2} \right]$
-$=(n-2)\left[ \left(\sum_{i=0}^{n} x_{i}\right)^{2} - \sum_{i=0}^{n} x_{i}^{2} \right]$
-$Sx = \sum_{i=0}^{n} x_{i}$ 라 하면
-정리하면 $res=\cfrac{S_{1}+S_{2}}{n\choose 3} =\cfrac{4(n-3)(S_{1x}+S_{1y})+8(Sx^{2}+Sy^{2})}{3n(n-1)}=\cfrac{4(n-3)R^{2}+8(Sx^{2}+Sy^{2})}{3n(n-1)}$
-
-코딩ㄱㄱ
-```c
-#include <bits/stdc++.h>
-using namespace std;
-typedef long long ll;
-
-int main(void){
-	long double n,r,a,b;
-	cin >> n >> r;
-	long double res = 0,suma = 0,sumb = 0;
-	res += 4*n*(n-3)*r / (3*n*(n-1));
-	for(int i=0;i<n;i++){
-		cin >> a >> b;
-		suma += a>0 ? sqrt(a) : -sqrt(-a);
-		sumb += b>0 ? sqrt(b) : -sqrt(-b);
-	}
-res += 8*(suma*suma+sumb*sumb) / (3*n*(n-1));
-cout << setprecision(18) << res << endl;
-}
-```

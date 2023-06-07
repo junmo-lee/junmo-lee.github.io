@@ -1,9 +1,9 @@
 ---
-title: go-rwangni
+title: test LaTex
 date : 2023-05-12
 description: "None"
 categories: [Blog, writing]
-tags: writing
+tags: [writing,LaTex]
 author: me
 math: true
 ---

@@ -3,7 +3,7 @@ title: tip to writing
 date: 2023-05-03
 description: "None"
 categories: [Blog, writing]
-tags: writing
+tags: [writing]
 author: me
 ---
 

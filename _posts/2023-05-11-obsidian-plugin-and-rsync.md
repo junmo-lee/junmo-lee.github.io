@@ -1,9 +1,9 @@
 ---
-title: None
+title: obsidian plugin and rsync
 date : 2023-05-11
 description: "None"
 categories: [Blog, writing]
-tags: writing
+tags: [writing,LaTex]
 author: me
 ---
 
@@ -19,18 +19,3 @@ Text Format : 다 대문자로, 소문자로, Capitalize(단어앞만 대문자�
 rsync -ruv --delete /Users/junmo/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/My/_posts /Users/junmo/Desktop/blog/_posts
 ```
 obsidian 과 blog 동기화
-
-## latex 연습
-
-
-$$\begin{pmatrix} a\\  b\\  c\\ \end{pmatrix}$$
-
-advanced tables example
-| 제목 | 내용 | 설명 |
-| ---- | ---- |:----:|
-| a    | b    |  c   |
-|      |      |      |
-| a    | b    |  c   |
-
-
-Lorem ipsum $$ f(x) = x^2 $$

@@ -3,7 +3,7 @@ title: study rust
 date: 2023-05-04
 description: "None"
 categories: [Blog, writing]
-tags: writing
+tags: [writing]
 author: me
 ---
 oreilly 어떻게 했는지 모르겠는데 일단 로그인하고 비밀번호 바꿔서 됨

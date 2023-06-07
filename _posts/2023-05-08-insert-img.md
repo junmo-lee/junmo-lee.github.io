@@ -3,7 +3,7 @@ title: insert-img
 date: 2023-05-08
 description: "None"
 categories: [Blog, writing]
-tags: writing
+tags: [writing]
 author: me
 ---
 

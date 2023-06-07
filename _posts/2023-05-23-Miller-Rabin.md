@@ -15,7 +15,6 @@ math: true
 [소수 판별법 - 에라토스테네스의 체, 밀러-라빈(Miller-Rabin) 소수판별법](https://rebro.kr/46)
 → 이사이트가 가장 설명이 잘나와있음
 
-[mathjax 혹은 katex - 수식 번호 매기기 - 코딩 연습](https://codepractice.tistory.com/126)
 
 1. 페르마의 소정리 $a^{p-1}\equiv 1(mod p)$
 2. 소수 p에 대해서 $x^{2}\equiv 1 (mod p)$ 이면 $x\equiv 1 \,or \, x\equiv -1 (mod p)$이다. pf : ($x^{2} - 1 | p,\,x^{2}-1=(x-1)(x+1)$)
