@@ -1,6 +1,6 @@
 ---
 title: "Lifting The Exponents"
-date: 2022-06-08 12:11
+date: 2023-06-08 12:11
 description: "None"
 categories: [Blog, math]
 tags: [math]     #lowercase
