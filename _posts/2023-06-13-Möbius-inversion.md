@@ -34,12 +34,12 @@ $\lfloor \frac{2023}{n} \rfloor - \lfloor \frac{2023}{n+1} \rfloor$(구간 차�
 1부터 n까지는 중간에 floor값이 들어가므로 서로 다르다는 것, 
 나머지는 쭈욱.... + 남은게 하나씩은 있으므로
 
-\frac{n}{i+1} 가 root n에 근접,
+$\frac{n}{i+1}$가 root n에 근접,
 따라서
 1~root(n)까지는 직접, 나머지는 root(n)보다  작음, 최대값은 2root(n)
 
 [1,a], [1,b] 구간 : p(a,b)라고 하고
-$p(a,b) = \sum\limits^{a}_{i=1}\sum\limits^{b}_{j=1}[gcd(i,j)=1] =  \sum\limits^{a}_{i=1}\sum\limits^{b}_{j=1}\gamma(gcd(i,j)) =  \sum\limits^{a}_{i=1}\sum\limits^{b}_{j=1} \sum\limits_{d\mid gcd(i,j)}\mu (d) =  \sum\limits^{a}_{d=1}\sum\limits^{b}_{j=1}=\sum\limits^{min(a,b)}_{d=1}\mu(d)\lfloor\frac{a}{d}\rfloor\lfloor\frac{b}{d}\rfloor$
+$$p(a,b) = \sum\limits^{a}_{i=1}\sum\limits^{b}_{j=1}[gcd(i,j)=1] =  \sum\limits^{a}_{i=1}\sum\limits^{b}_{j=1}\gamma(gcd(i,j)) =  \sum\limits^{a}_{i=1}\sum\limits^{b}_{j=1} \sum\limits_{d\mid gcd(i,j)}\mu (d) =  \sum\limits^{a}_{d=1}\sum\limits^{b}_{j=1}=\sum\limits^{min(a,b)}_{d=1}\mu(d)\lfloor\frac{a}{d}\rfloor\lfloor\frac{b}{d}\rfloor$$
 
 
 [a,b],[c,d] 이므로 포함 배제를 이용하여 빼야함
