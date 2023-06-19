@@ -1,11 +1,11 @@
 ---
-title: "None"
+title: "segment tree"
 date: 2023-06-18 10:27
 description: "None"
 categories: [Blog, algorithm]
 tags: [tag]     #lowercase
 author: me
-math: true
+#math: true
 #pin: true
 #img_path: /imgs/
 #mermaid: true
